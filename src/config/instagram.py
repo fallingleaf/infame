@@ -1,0 +1,5 @@
+CLIENT_ID = '1edbc8fd59604f338dbb02e6f7d6bbd1'
+CLIENT_SECRET = 'c32cafd4e0254ec7a8f4ddaff1d3441e'
+REDIRECT_URL = 'http://localhost:5000/insta/access'
+AUTHORIZE_URL = 'https://api.instagram.com/oauth/authorize/?client_id={}&redirect_uri={}&response_type=code'
+OAUTH_URL = 'https://api.instagram.com/oauth/access_token'
